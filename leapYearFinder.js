@@ -11,8 +11,8 @@ function leapYearFinder(begin_year, end_year) {
   }
   
   function isLeapYear(year) {
-    // Leap year conditions:
-    // - Divisible by 4 but not divisible by 100
+    // conditions or tests that qualify a year to be a leao year includes:
+    // - Divisible by 4 but not divisible by 100 and if it is divisible by both then the next condition must be tested
     // - Divisible by 400
   
     if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
